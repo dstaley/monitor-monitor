@@ -1,0 +1,12 @@
+[package]
+name = "monitor-monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.windows]
+version = "0.44.0"
+features = [
+    "Devices_Display",
+    "Devices_Enumeration",
+    "Foundation_Collections"
+]
